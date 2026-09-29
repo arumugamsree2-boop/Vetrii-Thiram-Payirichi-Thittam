@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-09-29 09:44:41">
+<sys_flow_context action="INSERT_OR_UPDATE">
+<application/>
+<attributes>{"test":false,"session_config":{"runAs":"user","userID":"6816f79cc0a8016401c5a33be04be441","roleIDs":[],"flowUserAgentContext":{"serializedUserAgent":""},"allowHighSecurityRoles":false,"flowObjectType":"UNKNOWN","runAsEnabled":true,"runWithRolesEnabled":true},"trigger_details":null,"subflow_stages_inputs":null,"debug_mode":false,"reportLastNIterations":0,"ds_action_with_active_stream":false,"caller_scope_stack":null,"alias_override_mapping":{},"reporting":"OFF","scope_name":"global","reportAllIterations":false,"allow_high_security_roles":false,"async_outbound_allowed":false,"engine_plugin_names":[],"remove_ops_at_execution_time":true,"error_handling_enabled":true,"originating_scope_obj":{"platform_originating_scope_id":"global","fd_originating_scope_id":null},"remove_successful_plan":true,"flow_event_priority":"P5","engine_listeners":[],"run_sync":false,"remove_ops":true,"remove_completed_ops":true,"message_for_parent_flow":null,"run_strategy":{"strategyName":"ServiceCatalogBindingStrategy","bindingRecordSysId":null},"use_sys_flow_rw_action":true,"calling_scope_id":"global","flow_detail":null,"flow_caller":null,"type":null,"timeout_in_second":0,"timeout_in_millis":0,"run_flow_in":"background","tracing_enabled":false,"stack":["8ea6ff5683a38310f8e1f0ffeeaad36e"]}</attributes>
+<calling_source>SERVICE_CATALOG</calling_source>
+<claimed_by>app130064.aus191.service-now.com:dev282182001</claimed_by>
+<design_source>FLOW_DESIGNER</design_source>
+<engine_major_version>2</engine_major_version>
+<engine_version>29000</engine_version>
+<error_message/>
+<error_state/>
+<execution_id>Z9pw4uFpzRt0EPgfvez5B5yo4o4uHb7H</execution_id>
+<flow>8ea6ff5683a38310f8e1f0ffeeaad36e</flow>
+<flow_catalog_model display_value=""/>
+<is_test_run>false</is_test_run>
+<name> Standard laptop tasks</name>
+<origins/>
+<plan>{"type":"NoPlanProxy","persistor":{"@class":".NoOpPlanPersistor"}}</plan>
+<reporting>OFF</reporting>
+<run_time>18156</run_time>
+<separate_reporting_values>true</separate_reporting_values>
+<signatures/>
+<skip_schedule_cleanup>false</skip_schedule_cleanup>
+<snapshot>6f0eb3d683e38310f8e1f0ffeeaad34b</snapshot>
+<source_record>79fbb75283e38310f8e1f0ffeeaad387</source_record>
+<source_table>sc_req_item</source_table>
+<stages display_value=""/>
+<state>COMPLETE</state>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-28 07:08:17</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>520e33d68be3831004c5dcea66c013e9</sys_id>
+<sys_lock_acquired/>
+<sys_lock_owner>available</sys_lock_owner>
+<sys_lock_touched>2026-09-28 07:35:18</sys_lock_touched>
+<sys_mod_count>8</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-28 07:35:18</sys_updated_on>
+<transaction>4e34cce283278310f8e1f0ffeeaad3d4</transaction>
+</sys_flow_context>
+</unload>
